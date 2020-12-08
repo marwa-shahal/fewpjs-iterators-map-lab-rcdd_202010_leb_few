@@ -13,16 +13,10 @@ const tutorials = [
 
 
 function titleCased() {
-  return tutorials.map(tut =>{ 
-  tut=tut.split(' ');
-  for (let i=0; i< tut.length; i++){
-    tut[i] = tut[i].charAt(0).toUpperCase + tut[i].substring(1);
-  }
-  return tut.join(' ');
-  
+  return tutorials.map(tut =>{return tut.split(' ').map(t => t.charAt(0).toUpperCase() + t.substring(1);
 });
  }
 // const titleCased = (input) => {
-//   return tutorials.map( phrase => {
+//     return tutorials.map( phrase => {
 //     return phrase.split(' ').map( word => word.charAt(0).toUpperCase() + word.slice(1) ).join(' ')})
 // }

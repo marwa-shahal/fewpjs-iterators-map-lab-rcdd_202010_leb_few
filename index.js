@@ -12,7 +12,7 @@ const tutorials = [
 ];
 
 
-function titleCased(){
+function titleCased() {
   return tutorials.map(tut =>{ 
   tut=tut.split(' ');
   for (let i=0; i< tut.length; i++){
@@ -21,7 +21,7 @@ function titleCased(){
   return tut.join(' ');
   
 });
-// }
+ }
 // const titleCased = (input) => {
 //   return tutorials.map( phrase => {
 //     return phrase.split(' ').map( word => word.charAt(0).toUpperCase() + word.slice(1) ).join(' ')})

@@ -13,7 +13,7 @@ const tutorials = [
 
 
 function titleCased() {
-  return tutorials.map(tut =>{return tut.split(' ').map(t => t.charAt(0).toUpperCase() + t.substring(1))
+  return tutorials.map(tut =>{return tut.split(' ').map(t => t.charAt(0).toUpperCase() + t.substring(1));
 });
  }
 
